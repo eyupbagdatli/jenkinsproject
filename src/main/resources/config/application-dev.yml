@@ -49,8 +49,8 @@ spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:postgresql://localhost:5432/jenkinsproject
-    username: jenkinsproject
-    password:
+    username: postgres
+    password: postgres
     hikari:
       poolName: Hikari
       auto-commit: false
@@ -79,7 +79,7 @@ spring:
         enabled: true
 
 server:
-  port: 8080
+  port: 8096
 
 # ===================================================================
 # JHipster specific properties
