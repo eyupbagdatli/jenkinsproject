@@ -19,7 +19,7 @@ public class CaseDefinition implements Serializable {
     private Long id;
 
     /*
-    Deneme
+
      */
     @Column(name = "name")
     private String name;
