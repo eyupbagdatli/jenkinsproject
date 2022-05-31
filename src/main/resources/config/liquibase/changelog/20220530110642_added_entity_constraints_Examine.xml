@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.5.xsd">
+    <!--
+        Added the constraints for entity Examine.
+    -->
+    <changeSet id="20220530110642-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="fk_examine__case_definition_id_id"
+                                 baseTableName="examine"
+                                 constraintName="fk_examine__fk_examine__case_definition_id_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="case_definition"/>
+    </changeSet>
+</databaseChangeLog>

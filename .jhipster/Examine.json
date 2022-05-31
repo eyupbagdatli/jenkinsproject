@@ -1,0 +1,21 @@
+{
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipName": "fk_examine__case_definition_id",
+      "otherEntityName": "caseDefinition",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "id"
+    }
+  ],
+  "service": "no",
+  "readOnly": false,
+  "pagination": "pagination",
+  "name": "Examine",
+  "changelogDate": "20220530110642"
+}
