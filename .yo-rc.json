@@ -42,6 +42,8 @@
     "withAdminUi": true,
     "otherModules": [],
     "enableGradleEnterprise": false,
-    "languages": ["en", "fr"]
+    "languages": ["en", "fr"],
+    "lastLiquibaseTimestamp": 1653908802000,
+    "entities": ["CaseDefinition", "Examine"]
   }
 }
